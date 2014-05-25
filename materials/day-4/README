@@ -1,0 +1,40 @@
+Content:
+========
+Day 4: Architecture and Profiling (Part 1), ½ day
+1. Python and current CPUs
+   a. CPU trends, how computers work, how Python’s
+      VM works (discuss bytecode)
+   b. Growth in number of CPUs and CPU speeds
+      - where are the bottlenecks?
+   c. Network, Disks, RAM and Caches
+2. Amdahl’s law - what to focus on (both for parallelisation and
+   general optimisation), http://en.wikipedia.org/wiki/Gustafson%27s_law 
+3. Measuring CPU speed (Julia set example)
+   a. timing & print
+   b. cProfile & runsnakerun
+   c. line_profiler
+4. Measuring RAM usage (Julia set, maybe also heat equation?)
+   a. memory_profiler - understand Julia lists, heat equation 2 blocks
+      * memit - dynamic behavior, add labels
+   b. guppy
+   c. heapy - show Julia set object collections
+   d. perf (command line) - julia lists and numpy big difference
+
+Day 4: Compiling (Part 2), ½ day
+5. Compiling to C
+   a. Cython basics on pure Python code
+   b. Cython on numpy code (heat equation?)
+   c. ShedSkin (on pure Python) - show how simple it can be
+   d. SWIG/F2PY ?
+6. JITs
+   a. PyPy (on pure Python) - numpypy, can’t use CPython-numpy.
+   b. Numba/Pythran (heat equation).
+   c. Numba/Pythran with OpenMP (pi estimation, Julia?).
+   d. Cython/Numba/Pythran with loops on np arrays - get away
+      from cost of individual accesses
+
+
+
+
+
+

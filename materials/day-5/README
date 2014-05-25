@@ -1,0 +1,61 @@
+Content:
+========
+Day 5: Multicore parallelisation (Part 3), ½ day
+1. Parallel maps on 1 machine.
+   a. multiprocessing.Pool.map (Pi estimation) + CPU charts.
+   b. PyPy with Pool.map quick demo.
+   c. lists of Processes.
+   d. queues.
+   e. mention joblib.
+2. Interprocess communication with multiprocessing.
+   a. validate large primes with IPC in parallel.
+3. Multi-machine parallelisation.
+   a. parallelpython module.
+      * pi estimation sending around big lists vs sending
+        counts - show with.
+   b. IPython Cluster (running, debugging).
+4. numpy shared memory over local cores.
+
+
+Day 5: Memory (Part 4.1), ⅙ day
+5. Memory in work.
+   a. make your life easier by being more sensible
+      with data storage.
+   b. lists of Python numbers vs numpy arrays
+      - memory usage cost.
+   c. cost of large vs small arrays (pi estimation
+      with numexpr vs single arrays).
+   d. cost of choosing the right numpy object size.
+   e. cost of unicode in python 2 & 3.
+   f. tries to compress large number of strings
+      (e.g. NLP, DNA).
+   g. Morris Counter, hyperloglog.
+
+
+Day 5: Review of storage tools (Part 4.2), ⅙ day
+6. Storage in practice.
+   a. discuss pros/cons of each technology and appropriate
+      use cases.
+   b. redis.
+   c. mongo.
+   d. elasticsearch.
+   e. HDF5 ? (it will be covered earlier).
+
+Day 5: Pragmatic python discussion (Part 4.3), ⅙ day.
+7. Python in practice.
+   a. pickles, csv, json, flat files.
+   b. unit testing.
+   c. commenting, docstrings.
+   d. libraries vs scripts.
+   e. lsof, netstat, iftop, dstat.
+   f. tips for a happy programming life.
+
+
+Day 5: Closure.
+
+
+
+
+
+
+
